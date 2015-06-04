@@ -1,0 +1,10 @@
+{
+    "name": "inlife/hotelbooking-server",
+    "authors": [
+        {
+            "name": "Vladislav Gritsenko",
+            "email": "Vladgritsenko@gmail.com"
+        }
+    ],
+    "require": {}
+}
