@@ -123,7 +123,7 @@ class Tagger {
      */
     private function parseDuration($array) {
         $start  = ["for"];
-        $finish = ["day", "days", "week", "weeks", "month", "months"];
+        $finish = ["day", "days", "night", "nights", "week", "weeks", "month", "months"];
 
         for ($i = 0; $i < count($array); $i++) {
             @$a = strtolower($array[$i + 0][0]);
@@ -138,6 +138,7 @@ class Tagger {
                 $b = $this->parseNumber($b);
 
                 if (strpos($c, "week") !== false) $b *= 7;
+                if (strpos($c, "night") !== false) $b += 1;
                 if (strpos($c, "month") !== false) $b *= 30;
 
                 $array[$i] = [
