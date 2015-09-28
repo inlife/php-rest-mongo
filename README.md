@@ -28,7 +28,7 @@ Start server:
 $ php -S localhost:8080
 ```
 
-### Preview:
+### Example Code:
 ```php
 <?php
 
