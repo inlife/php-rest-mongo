@@ -15,7 +15,7 @@ PHP REST API, ODM via Docrine/MongoDB, Language parsing via Standford-NLP, Fuzzy
 
 Clone:
 ```sh
-$ git clone git@github.com:Inlife/php-rest-mongo.git
+$ git clone https://github.com/Inlife/php-rest-mongo.git
 ```
 
 Install dependencies:
